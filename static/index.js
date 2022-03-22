@@ -466,8 +466,8 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
         }
 
         if (cps <= 5) return '来口茶包提神？';
-        if (cps <= 8) return '别舍不得吃可宝啊';
-        if (cps <= 10)  return '哇哦！';
+        if (cps <= 8) return '嗯造红黑毛猪头';
+        if (cps <= 10)  return '好快的吃';
         if (cps <= 15) return '鉴定为神级可可音';
         return '鉴定为闪电型可可音';
     }
