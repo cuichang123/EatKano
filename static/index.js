@@ -73,7 +73,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
     }
 
     function modeToString(m) {
-        return m === MODE_NORMAL ? "小可模式" : (m === MODE_ENDLESS ? "kero模式" : "红黑毛模式");
+        return m === MODE_NORMAL ? "小可模式" : (m === MODE_ENDLESS ? "嗯造猪头" : "无限打猪");
     }
 
     w.changeMode = function(m) {
