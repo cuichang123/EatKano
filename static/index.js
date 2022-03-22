@@ -465,11 +465,11 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 5) return '试着好好练一下？';
-        if (cps <= 8) return 'TCL';
-        if (cps <= 10)  return 'TQL';
-        if (cps <= 15) return '您';
-        return '人？';
+        if (cps <= 5) return '必须 得在快点才行';
+        if (cps <= 8) return '鉴定为纯良';
+        if (cps <= 10)  return '狠狠滴吃';
+        if (cps <= 15) return '神！！！';
+        return '鉴定为闪电型可可音';
     }
 
     function toStr(obj) {
